@@ -1,0 +1,11 @@
+name1=input("Enter the first student's name: ")
+id1=input("Enter the first student's ID: ")
+grade1=float(input("Enter the first student's grade: "))
+name2=input("Enter the 2nd student's name: ")
+id2=input("Enter the 2nd student's ID: ")
+grade2=float(input("Enter the 2nd student's grade: "))
+avg=(grade1+grade2)/2
+print("""Informat for students and their "Math" grades""")
+print(name1+"(ID "+id1+")","got grade:",grade1)
+print(name2+"(ID "+id2+")","got grade:",grade2)
+print("Average math grade is",avg)
