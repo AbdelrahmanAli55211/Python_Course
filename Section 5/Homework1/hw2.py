@@ -1,0 +1,6 @@
+print(True and True and False and True)
+print(True and True and False and True or True and True)
+print(True and True and True and True or True and (True or False))
+print(True and True and True or True and (False or (True and (True and True))))
+print(True and True or True and False and True or True and True and False or (True and (True or False)))
+print(True and True or True and False and True or (True and True and False or (True and (True or False))))
